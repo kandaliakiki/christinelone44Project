@@ -155,8 +155,67 @@ body {
   background-color: #e2e2e2; /* Set the background color */
 }
 
+.left-container-shape {
+  @apply w-[300px] h-[440px] relative flex justify-center bg-light-gray-theme-a1;
+  clip-path: polygon(
+    234px 0px,
+    279px 30px,
+    279px 95px,
+    300px 125px,
+    300px 170px,
+    290px 180px,
+    290px 305px,
+    270px 325px,
+    270px 405px,
+    250px 435px,
+    /* half */ /* half */ 50px 435px,
+    25px 405px,
+    25px 325px,
+    42px 305px,
+    42px 230px,
+    35px 220px,
+    35px 200px,
+    35px 180px,
+    42px 170px,
+    42px 120px,
+    22px 90px,
+    22px 30px,
+    66px 0px
+  );
+  transform: scaleX(-1);
+}
+
+.right-container-shape {
+  @apply w-[300px] h-[440px] relative flex justify-center bg-light-gray-theme-a1;
+  clip-path: polygon(
+    234px 0px,
+    279px 30px,
+    279px 95px,
+    300px 125px,
+    300px 170px,
+    290px 180px,
+    290px 305px,
+    270px 325px,
+    270px 405px,
+    250px 435px,
+    /* half */ /* half */ 50px 435px,
+    25px 405px,
+    25px 325px,
+    42px 305px,
+    42px 230px,
+    35px 220px,
+    35px 200px,
+    35px 180px,
+    42px 170px,
+    42px 120px,
+    22px 90px,
+    22px 30px,
+    66px 0px
+  );
+}
+
 .content-custom-shape {
-  @apply absolute top-0 left-0 w-full h-full flex  justify-center text-white;
+  @apply absolute top-0 left-0 w-full h-full flex flex-col justify-center text-white;
   z-index: 1; /* Ensure the text appears above the pseudo-element */
 }
 
@@ -165,12 +224,16 @@ body {
   bottom: -10px; /* Move the blur div down by 20px */
   left: 0;
   right: 0;
-  height: 150px; /* Adjust height as needed */
+  height: 200px; /* Adjust height as needed */
   background: linear-gradient(
     to bottom,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 1) 100%
+    rgba(226, 226, 226, 0) 0%,
+    rgba(226, 226, 226, 1) 100%
   );
   filter: blur(10px); /* Adjust blur intensity as needed */
   pointer-events: none; /* Ensure the blur div doesn't interfere with interactions */
+}
+
+.invert {
+  transform: scaleX(-1);
 }

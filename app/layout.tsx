@@ -12,6 +12,40 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const barlow = localFont({
+  src: [
+    {
+      path: "../public/fonts/Barlow/Barlow-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Barlow/Barlow-SemiBold.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Barlow/Barlow-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    // Add more weights/styles as needed
+  ],
+  variable: "--barlow",
+});
+
+const modular_amplitude = localFont({
+  src: [
+    {
+      path: "../public/fonts/ModularAmplitude/Modular_Amplitude.otf",
+      weight: "400",
+      style: "normal",
+    },
+
+    // Add more weights/styles as needed
+  ],
+  variable: "--modularAmplitude",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,7 +60,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} ${barlow.variable} ${modular_amplitude.variable} antialiased flex  flex-col min-h-screen`}
       >
         {children}
       </body>

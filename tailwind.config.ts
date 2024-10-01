@@ -9,6 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        barlow: ["var(--barlow)"],
+        modularAmplitude: ["var(--modularAmplitude)"],
+      },
       colors: {
         "gray-theme-a1": "#2A2A2A",
         "light-gray-theme-a1": "#575554",

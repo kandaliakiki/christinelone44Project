@@ -10,12 +10,13 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { useEffect, useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import HeroSection from "./HeroSection";
 
 export default function HeroCarousel() {
   const [api, setApi] = React.useState<any>();
   const [current, setCurrent] = React.useState(0);
-  const [count, setCount] = React.useState(0);
+  const [count, setCount] = useState(0);
 
   useEffect(() => {
     if (!api) {
@@ -30,45 +31,27 @@ export default function HeroCarousel() {
     });
   }, [api]);
 
-  // Adjust this value to change how much of the adjacent items are visible
-  // 0.2 means 20% of adjacent items are visible (10% on each side)
-  const peekAmount = 0.2;
-
   return (
-    <div className="w-full max-w-sm mx-auto mt-2">
-      <div className="relative">
+    <div className="w-full   mx-auto ">
+      <div className="relative flex items-center justify-center ">
         <Carousel
           setApi={setApi}
-          className="w-full"
+          className="w-full "
           opts={{
             align: "center",
             loop: true,
           }}
         >
-          <CarouselContent className="-ml-2 md:-ml-4  overflow-visible">
+          <CarouselContent>
             {Array.from({ length: 5 }).map((_, index) => (
-              <CarouselItem
-                key={index}
-                className="pl-2 md:pl-4 "
-                style={{
-                  flex: `0 0 ${(1 - peekAmount) * 100}%`,
-                  maxWidth: `${(1 - peekAmount) * 100}%`,
-                }}
-              >
-                <Card className="overflow-visible bg-transparent border-none">
-                  <CardContent className="flex aspect-square items-center justify-center p-6">
-                    <HeroSection></HeroSection>
-                  </CardContent>
-                </Card>
+              <CarouselItem key={index} className=" flex justify-center">
+                <HeroSection></HeroSection>
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="absolute left-[10%] top-1/2 -translate-y-1/2" />
-          <CarouselNext className="absolute right-[10%] top-1/2 -translate-y-1/2" />
+          <CarouselPrevious className="bg-[#B3EF1B] focus:bg-[#B3EF1B]  border-none drop-shadow-[0_3px_2px_rgba(0,0,0,0.5)] absolute left-10 top-1/2 -translate-y-1/2 h-10 w-10 rounded-xl" />
+          <CarouselNext className=" bg-[#B3EF1B] focus:bg-[#B3EF1B] border-none drop-shadow-[0_3px_2px_rgba(0,0,0,0.5)] absolute right-10 top-1/2 -translate-y-1/2 h-10 w-10 rounded-xl" />
         </Carousel>
-      </div>
-      <div className="py-2 text-center text-sm text-muted-foreground">
-        Slide {current} of {count}
       </div>
     </div>
   );
