@@ -237,3 +237,39 @@ body {
 .invert {
   transform: scaleX(-1);
 }
+
+/* A2 Styling */
+.left-layout-a2-shape {
+  @apply w-[300px] h-[900px] relative flex justify-center;
+  clip-path: polygon(
+    0px 100px,
+    114px 199px,
+    114px 513px,
+    139px 535px,
+    139px 765px,
+    200px 810px,
+    200px 830px,
+    270px 830px,
+    300px 900px,
+    0px 900px
+  );
+}
+.website-event-shape {
+  @apply w-[150px] h-[265px] relative  bg-white backdrop-blur-sm bg-opacity-35;
+  clip-path: polygon(
+    100% 0%,
+    100% 100%,
+    91% 100%,
+    79% 95%,
+    59% 95%,
+    49% 100%,
+    10% 100%,
+    0% 95%,
+    0% 34%,
+    11% 30%,
+    11% 18%,
+    0% 14%,
+    0% 7%,
+    16% 0%
+  );
+}

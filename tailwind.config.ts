@@ -13,6 +13,9 @@ const config: Config = {
         barlow: ["var(--barlow)"],
         modularAmplitude: ["var(--modularAmplitude)"],
       },
+      backgroundImage: {
+        "hero-a1-background": "url('/assets/hero-a1-background.png')",
+      },
       colors: {
         "gray-theme-a1": "#2A2A2A",
         "light-gray-theme-a1": "#575554",
