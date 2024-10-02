@@ -15,6 +15,7 @@ const config: Config = {
       },
       backgroundImage: {
         "hero-a1-background": "url('/assets/hero-a1-background.png')",
+        "hero-a2-background": "url('/assets/hero-a2-background.png')",
       },
       colors: {
         "gray-theme-a1": "#2A2A2A",

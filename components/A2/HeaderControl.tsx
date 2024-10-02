@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const HeaderControl = () => {
   return (
-    <div className="flex w-full justify-between px-6 mt-14">
+    <div className="flex w-full justify-between px-6 mt-7">
       <Button className="  mr-2 p-0 h-10 w-10 flex items-center justify-center rounded-xl bg-white focus:bg-white  border-none drop-shadow-[0_3px_2px_rgba(0,0,0,0.5)]">
         <ChevronLeft className="text-black" />
       </Button>

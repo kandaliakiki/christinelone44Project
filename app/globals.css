@@ -273,3 +273,79 @@ body {
     16% 0%
   );
 }
+
+/* A3 Styling */
+.left-layout-a3-shape {
+  @apply w-[300px] h-[900px] relative flex justify-center  drop-shadow-[0_10px_2px_rgba(0,0,0,0.5)];
+  clip-path: polygon(
+    0 0,
+    16% 7%,
+    16% 32%,
+    28% 37%,
+    28% 45%,
+    16% 50%,
+    16% 66%,
+    0 72%
+  );
+}
+
+.right-layout-a3-shape {
+  @apply w-[350px] h-[600px] relative flex justify-center;
+  clip-path: polygon(
+    100% 44%,
+    84% 49%,
+    84% 61%,
+    86% 62%,
+    86% 70%,
+    84% 71%,
+    84% 80%,
+    75% 85%,
+    75% 89%,
+    68% 92%,
+    40% 92%,
+    35% 93%,
+    26% 93%,
+    21% 92%,
+    8% 92%,
+    0% 95%,
+    0 100%,
+    100% 100%
+  );
+}
+
+.title-a3-shape {
+  @apply w-[300px] h-[150px] relative left-20 top-10  z-10;
+  clip-path: polygon(
+    5% 0%,
+    100% 0%,
+    100% 88%,
+    93% 100%,
+    18% 100%,
+    11% 88%,
+    11% 15%
+  );
+  background: radial-gradient(
+    circle at 85% 25%,
+    transparent 8%,
+    /* Adjusted circle size */ rgba(219, 218, 218, 0.363) 8.5%
+      /* Adjusted circle size */
+  );
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+  backdrop-filter: blur(7px);
+}
+
+.detail-a3-shape {
+  @apply w-[200px] h-[150px] relative flex justify-center bg-[#B0AFAF];
+  clip-path: polygon(
+    11% 0,
+    0 15%,
+    0 77%,
+    11% 92%,
+    34% 92%,
+    42% 100%,
+    100% 99%,
+
+    100% 0
+  );
+}

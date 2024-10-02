@@ -7,7 +7,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="h-screen ">
+    <div className=" h-full">
       <HeaderControl />
       <div className="flex h-1/2  w-full  justify-center items-center mt-28">
         <div className="h-full  w-1/2 flex flex-col justify-start items-end">
