@@ -77,7 +77,7 @@ body {
   }
 }
 
-/* A1 Styling */
+/* A1_1 Styling */
 .custom-shape {
   @apply flex items-center justify-center;
 }
@@ -238,7 +238,7 @@ body {
   transform: scaleX(-1);
 }
 
-/* A2 Styling */
+/* A1_2 Styling */
 .left-layout-a2-shape {
   @apply w-[300px] h-[900px] relative flex justify-center;
   clip-path: polygon(
@@ -274,7 +274,7 @@ body {
   );
 }
 
-/* A3 Styling */
+/* A1_3 Styling */
 .left-layout-a3-shape {
   @apply w-[300px] h-[900px] relative flex justify-center  drop-shadow-[0_10px_2px_rgba(0,0,0,0.5)];
   clip-path: polygon(
@@ -348,4 +348,19 @@ body {
 
     100% 0
   );
+}
+
+/* A2_2 Styling */
+.base-image,
+.mask-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mask-image {
+  mix-blend-mode: multiply; /* This blend mode creates the masking effect */
+  object-fit: cover; /* Ensures the mask image covers the container */
+  object-position: center; /* Centers the mask image */
+  opacity: 1; /* Adjust the opacity as needed */
 }

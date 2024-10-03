@@ -26,7 +26,7 @@ const page = () => {
             height={200}
           ></Image>
           <div className="absolute top-0 right-0 z-30">
-            <PaymentCard arrowDirection="right" />
+            <PaymentCard arrowDirection="left" />
           </div>
           <div className="absolute top-16 left-0 z-30 ml-2">
             <PaymentCard arrowDirection="right" />
@@ -44,7 +44,7 @@ const page = () => {
             className="transform rotate-180"
             style={{ transform: "scaleX(-1)" }}
           ></Image>
-          <div className="absolute top-0 left-2 z-30 ml-2">
+          <div className="absolute top-1 left-2 z-30 ml-2">
             <p className="text-4xl">Send </p>
           </div>
           <div className="absolute top-12 left-0 z-30 ml-3">
