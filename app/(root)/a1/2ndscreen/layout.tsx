@@ -1,4 +1,4 @@
-import LeftLayout from "@/components/A2/LeftLayout";
+import LeftLayout from "@/components/A1_2/LeftLayout";
 import Image from "next/image";
 
 export default function RootLayout({
@@ -8,7 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <main
-      className={`relative flex flex-col overflow-auto min-h-screen bg-hero-a1-background bg-no-repeat  bg-gray-theme-a1  
+      className={`relative flex flex-col overflow-auto min-h-screen bg-hero-a1-background-2 bg-no-repeat  bg-gray-theme-a1  
         bg-[center_top_5px] bg-[length:840px_840px] `} // adjust bg image size and position here
     >
       <div className="fixed    inset-0 z-0 opacity-40 bg-black "></div>

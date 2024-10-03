@@ -1,5 +1,5 @@
-import HeaderControl from "@/components/A3/HeaderControl";
-import TitleSection from "@/components/A3/TitleSection";
+import HeaderControl from "@/components/A1_3/HeaderControl";
+import TitleSection from "@/components/A1_3/TitleSection";
 
 import React from "react";
 

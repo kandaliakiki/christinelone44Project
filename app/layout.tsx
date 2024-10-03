@@ -34,6 +34,56 @@ const barlow = localFont({
   variable: "--barlow",
 });
 
+const roboto = localFont({
+  src: [
+    {
+      path: "../public/fonts/Roboto/Roboto-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Roboto/Roboto-Medium.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Roboto/Roboto-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    // Add more weights/styles as needed
+  ],
+  variable: "--roboto",
+});
+
+const schibstedGrotesk = localFont({
+  src: [
+    {
+      path: "../public/fonts/SchibstedGrotesk/SchibstedGrotesk-VariableFont_wght.ttf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--schibsted-grotesk",
+});
+
+const amaranth = localFont({
+  src: [
+    {
+      path: "../public/fonts/Amaranth/Amaranth-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Amaranth/Amaranth-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    // Add more weights/styles as needed
+  ],
+  variable: "--amaranth",
+});
+
 const modular_amplitude = localFont({
   src: [
     {
@@ -60,7 +110,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${barlow.variable} ${modular_amplitude.variable} antialiased flex  flex-col min-h-screen`}
+        className={`${geistSans.variable}  ${geistMono.variable} ${barlow.variable}  ${modular_amplitude.variable} ${roboto.variable} ${amaranth.variable} ${schibstedGrotesk.variable} antialiased flex flex-col min-h-screen`}
       >
         {children}
       </body>

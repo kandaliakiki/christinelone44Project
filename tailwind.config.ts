@@ -12,10 +12,15 @@ const config: Config = {
       fontFamily: {
         barlow: ["var(--barlow)"],
         modularAmplitude: ["var(--modularAmplitude)"],
+        roboto: ["var(--roboto)"],
+        amaranth: ["var(--amaranth)"],
+        schibstedGrotesk: ["var(--schibstedGrotesk)"],
       },
       backgroundImage: {
-        "hero-a1-background": "url('/assets/hero-a1-background.png')",
-        "hero-a2-background": "url('/assets/hero-a2-background.png')",
+        "hero-a1-background-2": "url('/assets/hero-a1-background_2.png')",
+        "hero-a1-background-3": "url('/assets/hero-a1-background_3.png')",
+        "a2-background-1": "url('/assets/a2-background_1.png')",
+        "profile-face": "url('/assets/profile-face.png')",
       },
       colors: {
         "gray-theme-a1": "#2A2A2A",

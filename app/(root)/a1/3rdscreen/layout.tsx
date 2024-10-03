@@ -1,6 +1,6 @@
-import DetailLayout from "@/components/A3/DetailLayout";
-import LeftLayout from "@/components/A3/LeftLayout";
-import RightLayout from "@/components/A3/RightLayout";
+import DetailLayout from "@/components/A1_3/DetailLayout";
+import LeftLayout from "@/components/A1_3/LeftLayout";
+import RightLayout from "@/components/A1_3/RightLayout";
 
 export default function RootLayout({
   children,
@@ -18,7 +18,7 @@ export default function RootLayout({
         </div>
       </div>
       <div
-        className="fixed    inset-0 z-20  bg-hero-a2-background bg-no-repeat    
+        className="fixed    inset-0 z-20  bg-hero-a1-background-3 bg-no-repeat    
         bg-[right_-14rem_top_2rem]  bg-[length:840px_840px] "
       ></div>
       <div className="fixed left-[-6%] top-20 transform z-30  drop-shadow-[0_3px_2px_rgba(0,0,0,0.5)]">

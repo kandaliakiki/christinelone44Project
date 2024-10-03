@@ -1,5 +1,5 @@
-import HeaderControl from "@/components/A2/HeaderControl";
-import WebsiteEvent from "@/components/A2/WebsiteEvent";
+import HeaderControl from "@/components/A1_2/HeaderControl";
+import WebsiteEvent from "@/components/A1_2/WebsiteEvent";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft } from "lucide-react";
 import Image from "next/image";

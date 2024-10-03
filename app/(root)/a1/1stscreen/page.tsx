@@ -1,7 +1,7 @@
-import HeroCarousel from "@/components/A1/HeroCarousel";
-import HeroSection from "@/components/A1/HeroSection";
-import LeftAndRightLayout from "@/components/A1/LeftAndRightLayout";
-import SocialMediaSection from "@/components/A1/SocialMediaSection";
+import HeroCarousel from "@/components/A1_1/HeroCarousel";
+import HeroSection from "@/components/A1_1/HeroSection";
+import LeftAndRightLayout from "@/components/A1_1/LeftAndRightLayout";
+import SocialMediaSection from "@/components/A1_1/SocialMediaSection";
 import { Button } from "@/components/ui/button";
 import React from "react";
 

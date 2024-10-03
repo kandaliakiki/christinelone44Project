@@ -1,4 +1,4 @@
-import LeftAndRightLayout from "@/components/A1/LeftAndRightLayout";
+import LeftAndRightLayout from "@/components/A1_1/LeftAndRightLayout";
 
 export default function RootLayout({
   children,
