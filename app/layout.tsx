@@ -37,6 +37,16 @@ const barlow = localFont({
 const roboto = localFont({
   src: [
     {
+      path: "../public/fonts/Roboto/Roboto-Thin.ttf",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Roboto/Roboto-Light.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
       path: "../public/fonts/Roboto/Roboto-Regular.ttf",
       weight: "400",
       style: "normal",
@@ -51,6 +61,7 @@ const roboto = localFont({
       weight: "700",
       style: "normal",
     },
+
     // Add more weights/styles as needed
   ],
   variable: "--roboto",
