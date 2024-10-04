@@ -1,5 +1,3 @@
-import TopLayout from "@/components/A2_1/TopLayout";
-
 export default function RootLayout({
   children,
 }: Readonly<{
