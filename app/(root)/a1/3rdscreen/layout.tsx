@@ -13,7 +13,7 @@ export default function RootLayout({
     >
       <div className="absolute w-full h-screen z-10 flex flex-col justify-start items-center ">
         <div className="w-full h-1/2 "></div>
-        <div className="w-full h-1/2 ml-16 flex justify-start items-center">
+        <div className="w-full h-1/2 ml-12 flex justify-start items-center">
           <DetailLayout></DetailLayout>
         </div>
       </div>

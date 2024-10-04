@@ -15,12 +15,13 @@ const page = () => {
         <p className="uppercase text-[10px] absolute bottom-2 right-14 ">
           empowerment
         </p>
+
         <Image
           alt="barcode"
           src="/assets/barcode.svg"
-          width={80}
-          height={80}
-          className="absolute bottom-4 right-3"
+          width={120}
+          height={120}
+          className="absolute -bottom-1 right-2 translate-x-10 -scale-y-75 scale-x-[0.35]"
         ></Image>
       </div>
       <div className="px-3  ">

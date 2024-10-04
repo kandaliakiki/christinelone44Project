@@ -255,80 +255,79 @@ body {
   );
 }
 .website-event-shape {
-  @apply w-[150px] h-[265px] relative  bg-white backdrop-blur-sm bg-opacity-35;
+  @apply w-[150px] h-[265px] relative bg-white backdrop-blur-sm bg-opacity-35;
   clip-path: polygon(
-    100% 0%,
-    100% 100%,
-    91% 100%,
-    79% 95%,
-    59% 95%,
-    49% 100%,
-    10% 100%,
-    0% 95%,
-    0% 34%,
-    11% 30%,
-    11% 18%,
-    0% 14%,
-    0% 7%,
-    16% 0%
+    150px 0px,
+    150px 265px,
+    136.5px 265px,
+    118.5px 251.75px,
+    88.5px 251.75px,
+    73.5px 265px,
+    15px 265px,
+    0px 251.75px,
+    0px 90.1px,
+    16.5px 79.5px,
+    16.5px 47.7px,
+    0px 37.1px,
+    0px 18.55px,
+    24px 0px
   );
 }
 
 /* A1_3 Styling */
 .left-layout-a3-shape {
-  @apply w-[300px] h-[900px] relative flex justify-center  drop-shadow-[0_10px_2px_rgba(0,0,0,0.5)];
+  @apply w-[300px] h-[900px] relative flex justify-center drop-shadow-[0_10px_2px_rgba(0,0,0,0.5)];
   clip-path: polygon(
-    0 0,
-    16% 7%,
-    16% 32%,
-    28% 37%,
-    28% 45%,
-    16% 50%,
-    16% 66%,
-    0 72%
+    0px 0px,
+    48px 63px,
+    48px 153px,
+    66px 171px,
+    66px 270px,
+    48px 288px,
+    48px 459px,
+    0px 513px
   );
 }
 
 .right-layout-a3-shape {
   @apply w-[350px] h-[600px] relative flex justify-center;
   clip-path: polygon(
-    100% 44%,
-    84% 49%,
-    84% 61%,
-    86% 62%,
-    86% 70%,
-    84% 71%,
-    84% 80%,
-    75% 85%,
-    75% 89%,
-    68% 92%,
-    40% 92%,
-    35% 93%,
-    26% 93%,
-    21% 92%,
-    8% 92%,
-    0% 95%,
-    0 100%,
-    100% 100%
+    350px 264px,
+    294px 294px,
+    294px 366px,
+    301px 372px,
+    301px 420px,
+    294px 426px,
+    294px 480px,
+    262.5px 510px,
+    262.5px 534px,
+    238px 552px,
+    140px 552px,
+    122.5px 558px,
+    91px 558px,
+    73.5px 552px,
+    28px 552px,
+    0px 570px,
+    0px 600px,
+    350px 600px
   );
 }
 
 .title-a3-shape {
-  @apply w-[300px] h-[150px] relative left-20 top-10  z-10;
+  @apply w-[300px] h-[150px] relative left-20 top-10 z-10;
   clip-path: polygon(
-    5% 0%,
-    100% 0%,
-    100% 88%,
-    93% 100%,
-    18% 100%,
-    11% 88%,
-    11% 15%
+    15px 0px,
+    300px 0px,
+    300px 132px,
+    279px 150px,
+    54px 150px,
+    33px 132px,
+    33px 22.5px
   );
   background: radial-gradient(
     circle at 85% 25%,
     transparent 8%,
-    /* Adjusted circle size */ rgba(219, 218, 218, 0.363) 8.5%
-      /* Adjusted circle size */
+    rgba(219, 218, 218, 0.363) 8.5%
   );
   background-size: 100% 100%;
   background-position: 50% 50%;
@@ -338,15 +337,14 @@ body {
 .detail-a3-shape {
   @apply w-[200px] h-[150px] relative flex justify-center bg-[#B0AFAF];
   clip-path: polygon(
-    11% 0,
-    0 15%,
-    0 77%,
-    11% 92%,
-    34% 92%,
-    42% 100%,
-    100% 99%,
-
-    100% 0
+    22px 0px,
+    0px 22.5px,
+    0px 115.5px,
+    22px 138px,
+    68px 138px,
+    84px 150px,
+    200px 148.5px,
+    200px 0px
   );
 }
 

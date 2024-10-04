@@ -12,4 +12,6 @@ export const pageLinks = [
   { pagename: "A2_1", href: "a2/1stscreen" },
   { pagename: "A2_2", href: "a2/2ndscreen" },
   { pagename: "A2_3", href: "a2/3rdscreen" },
+  { pagename: "A3_1", href: "a3/1stscreen" },
+  { pagename: "A3_2", href: "a3/2ndscreen" },
 ];
