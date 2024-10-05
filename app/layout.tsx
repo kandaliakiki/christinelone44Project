@@ -112,6 +112,16 @@ const montserrat = localFont({
       weight: "400",
       style: "normal",
     },
+    {
+      path: "../public/fonts/Montserrat/Montserrat-SemiBold.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Montserrat/Montserrat-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
     // Add more weights/styles as needed
   ],
   variable: "--montserrat",

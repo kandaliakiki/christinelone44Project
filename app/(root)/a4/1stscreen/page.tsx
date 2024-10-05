@@ -33,8 +33,6 @@ const page = () => {
               ></ChevronRight>
             </div>
           </div>
-
-          {/* <div className="w-40 h-40 bg-white rounded-full"></div> */}
         </div>
       </div>
     </div>
