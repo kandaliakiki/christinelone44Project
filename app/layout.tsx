@@ -95,6 +95,28 @@ const amaranth = localFont({
   variable: "--amaranth",
 });
 
+const montserrat = localFont({
+  src: [
+    {
+      path: "../public/fonts/Montserrat/Montserrat-Thin.ttf",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Montserrat/Montserrat-Light.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Montserrat/Montserrat-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    // Add more weights/styles as needed
+  ],
+  variable: "--montserrat",
+});
+
 const modular_amplitude = localFont({
   src: [
     {
@@ -121,7 +143,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable}  ${geistMono.variable} ${barlow.variable}  ${modular_amplitude.variable} ${roboto.variable} ${amaranth.variable} ${schibstedGrotesk.variable} antialiased flex flex-col min-h-screen`}
+        className={`${geistSans.variable}  ${geistMono.variable} ${barlow.variable}  ${modular_amplitude.variable} ${roboto.variable} ${amaranth.variable} ${schibstedGrotesk.variable} ${montserrat.variable} antialiased flex flex-col min-h-screen`}
       >
         {children}
       </body>

@@ -15,10 +15,13 @@ const config: Config = {
         roboto: ["var(--roboto)"],
         amaranth: ["var(--amaranth)"],
         schibstedGrotesk: ["var(--schibstedGrotesk)"],
+        montserrat: ["var(--montserrat)"],
       },
       backgroundImage: {
         "hero-a1-background-2": "url('/assets/hero-a1-background_2.png')",
         "hero-a1-background-3": "url('/assets/hero-a1-background_3.png')",
+        "hero-a4-background-1": "url('/assets/hero-a4-background_1.png')",
+        "hero-a4-background-2": "url('/assets/hero-a4-background_2.png')",
         "a2-background-1": "url('/assets/a2-background_1.png')",
         "profile-face": "url('/assets/profile-face.png')",
       },
