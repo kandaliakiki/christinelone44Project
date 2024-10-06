@@ -362,3 +362,9 @@ body {
   object-position: center; /* Centers the mask image */
   opacity: 1; /* Adjust the opacity as needed */
 }
+
+/* A4_3 Styling */
+#progress-path,
+#progress-path2 {
+  transition: stroke-dashoffset 0.3s ease;
+}

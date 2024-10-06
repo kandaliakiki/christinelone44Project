@@ -6,6 +6,8 @@ const HealthControlCalories = () => {
       <p className="text-black text-xs text-right font-semibold  mt-5 mb-1">
         1200 / 2100 kcal
       </p>
+
+      <div className="absolute bg-black flex justify-center items-center"></div>
       <div className="relative w-full flex ">
         <div className="w-1/2 bg-white rounded-full h-2"></div>
         <div className="w-1/2 bg-black rounded-full h-2"></div>
