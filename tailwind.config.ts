@@ -22,7 +22,11 @@ const config: Config = {
         "hero-a1-background-3": "url('/assets/hero-a1-background_3.png')",
         "hero-a4-background-1": "url('/assets/hero-a4-background_1.png')",
         "hero-a4-background-2": "url('/assets/hero-a4-background_2.png')",
+
         "a2-background-1": "url('/assets/a2-background_1.png')",
+        "a4-background-1": "url('/assets/a4-background-6.png')",
+        "a2-background_2": "url('/assets/a2-background_2.jpg')",
+        "glucose-measuring": "url('/assets/bg-glucose-measuring.png')",
         "profile-face": "url('/assets/profile-face.png')",
       },
       colors: {

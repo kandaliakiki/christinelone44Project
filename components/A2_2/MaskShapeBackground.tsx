@@ -1,22 +1,17 @@
 import Image from "next/image";
 import React from "react";
+
 const MaskShapeBackground: React.FC = () => {
   return (
-    <div className="  flex  items-center justify-center z-10 h-full fixed w-full ml-1 mt-10">
+    <div className="flex items-center justify-center z-10 h-full fixed w-full ml-1 mt-10">
       <div
-        className={`h-full w-[60%]  ml-2  left-1  `}
+        className="h-full w-[60%] ml-2 left-1"
         style={{
-          maskImage: `url(/assets/mask/A2/shapemask2.svg)`,
-          WebkitMaskImage: `url(/assets/mask/A2/shapemask2.svg)`,
-          maskSize: "100% ",
-          WebkitMaskSize: "100% ",
-          maskRepeat: "no-repeat",
-          WebkitMaskRepeat: "no-repeat",
-          maskPosition: "center",
-          WebkitMaskPosition: "center",
+          clipPath:
+            "path('M405 1H81C36.8172 1 1 36.8172 1 81V861C1 905.183 36.8172 941 81 941H405C449.183 941 485 905.183 485 861V81C485 36.8172 449.183 1 405 1Z')",
         }}
       >
-        <div className={`absolute bottom-0   w-full h-full opacity-40 `}>
+        <div className="absolute bottom-0 w-full h-full opacity-40">
           <Image
             alt="shape"
             src="/assets/a2-background_2.jpg"
@@ -26,19 +21,13 @@ const MaskShapeBackground: React.FC = () => {
         </div>
       </div>
       <div
-        className={`h-full w-[20%]     -ml-3  `}
+        className="h-full w-[20%] -ml-3"
         style={{
-          maskImage: `url(/assets/mask/A2/shapemask4.svg)`,
-          WebkitMaskImage: `url(/assets/mask/A2/shapemask4.svg)`,
-          maskSize: "87% 87%",
-          WebkitMaskSize: "87% 87%",
-          maskRepeat: "no-repeat",
-          WebkitMaskRepeat: "no-repeat",
-          maskPosition: "center",
-          WebkitMaskPosition: "center",
+          clipPath:
+            "path('M405 1H81C36.8172 1 1 36.8172 1 81V861C1 905.183 36.8172 941 81 941H405C449.183 941 485 905.183 485 861V81C485 36.8172 449.183 1 405 1Z')",
         }}
       >
-        <div className={`absolute bottom-0 left-5    w-full h-full opacity-70`}>
+        <div className="absolute bottom-0 left-5 w-full h-full opacity-70">
           <Image
             alt="shape"
             src="/assets/a2-background_2.jpg"
@@ -48,19 +37,13 @@ const MaskShapeBackground: React.FC = () => {
         </div>
       </div>
       <div
-        className={`h-full w-[20%]   bg-black -ml-7   `}
+        className="h-full w-[20%] bg-black -ml-7"
         style={{
-          maskImage: `url(/assets/mask/A2/shapemask4.svg)`,
-          WebkitMaskImage: `url(/assets/mask/A2/shapemask4.svg)`,
-          maskSize: "87% 87%",
-          WebkitMaskSize: "87% 87%",
-          maskRepeat: "no-repeat",
-          WebkitMaskRepeat: "no-repeat",
-          maskPosition: "center",
-          WebkitMaskPosition: "center",
+          clipPath:
+            "path('M405 1H81C36.8172 1 1 36.8172 1 81V861C1 905.183 36.8172 941 81 941H405C449.183 941 485 905.183 485 861V81C485 36.8172 449.183 1 405 1Z')",
         }}
       >
-        <div className={`absolute bottom-0 left-5    w-full h-full opacity-70`}>
+        <div className="absolute bottom-0 left-5 w-full h-full opacity-70">
           <Image
             alt="shape"
             src="/assets/a2-background_2.jpg"
