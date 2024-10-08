@@ -9,7 +9,7 @@ export default function RootLayout({
 }>) {
   return (
     <main
-      className={`relative flex flex-col overflow-hidden min-h-screen bg-a2-background_2 bg-cover   `} // adjust bg image size and position here
+      className={`relative flex flex-col overflow-hidden min-h-screen  bg-black  `} // adjust bg image size and position here
     >
       <div className="absolute top-0 left-0 right-0 bottom-0 backdrop-blur-lg z-10 bg-black bg-opacity-45"></div>
       <div className="">

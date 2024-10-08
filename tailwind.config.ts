@@ -16,6 +16,7 @@ const config: Config = {
         amaranth: ["var(--amaranth)"],
         schibstedGrotesk: ["var(--schibstedGrotesk)"],
         montserrat: ["var(--montserrat)"],
+        outfit: ["var(--outfit)"],
       },
       backgroundImage: {
         "hero-a1-background-2": "url('/assets/hero-a1-background_2.png')",

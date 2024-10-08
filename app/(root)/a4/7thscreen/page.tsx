@@ -83,6 +83,49 @@ const page = () => {
             objectFit="cover"
           />
         </div>
+        <div className="w-full h-full relative  flex flex-col justify-end items-center">
+          <div className="mb-32 relative">
+            <svg
+              width="271"
+              height="240"
+              viewBox="0 0 271 240"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <linearGradient
+                  id="gradient2"
+                  x1="0%"
+                  y1="100%"
+                  x2="100%"
+                  y2="20%"
+                >
+                  <stop offset="0%" stopColor="transparent" />
+                  <stop offset="20%" stopColor="#ffffff" />
+                  <stop offset="90%" stopColor="#ffffff" />
+                  <stop offset="100%" stopColor="transparent" />
+                </linearGradient>
+              </defs>
+              <path
+                d="M270.377 60.5048C246.641 28.5789 211.195 7.38946 171.837 1.59801C132.478 -4.19344 92.4308 5.88748 60.5048 29.6231C28.5789 53.3587 7.38944 88.8047 1.59798 128.163C-4.19347 167.522 5.88745 207.569 29.623 239.495L33.8848 236.327C10.9895 205.531 1.26545 166.902 6.85187 128.936C12.4383 90.9712 32.8775 56.7801 63.6732 33.8848C94.4689 10.9895 133.098 1.26548 171.064 6.85189C209.029 12.4383 243.22 32.8776 266.115 63.6732L270.377 60.5048Z"
+                fill="url(#gradient2)"
+              />
+            </svg>
+            <div className="absolute -top-4 right-20 w-10 h-10 rounded-full bg-transparent border-2 border-white flex justify-center items-center">
+              <div className="w-3 h-3 rounded-full bg-white"></div>
+            </div>
+            <div className="absolute top-[9px] right-14  w-3 h-3 ml-3 rounded-full bg-white"></div>
+          </div>
+          <p className="text-white text-5xl ">368 k</p>
+          <p className="text-white mt-2 ">Satisfied users</p>
+          <div className="flex items-center place-self-start mb-10 ml-10 mt-5">
+            <div className="w-10 h-10 rounded-full bg-transparent border-2 border-white flex justify-center items-center">
+              <div className="w-2 h-2 rounded-full bg-white"></div>
+            </div>
+            <div className="w-2 h-2 ml-3 rounded-full bg-white"></div>
+            <div className="w-2 h-2 ml-6 rounded-full bg-white"></div>
+          </div>
+        </div>
       </div>
     </div>
   );
