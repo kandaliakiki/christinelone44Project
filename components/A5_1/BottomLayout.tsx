@@ -3,7 +3,7 @@ import React from "react";
 
 const BottomLayout = () => {
   return (
-    <div className="absolute w-screen -bottom-8 left-0 h-24 bg-[#141519] px-4 rounded-[2.8rem] flex">
+    <div className="fixed w-screen -bottom-8 left-0 h-24 bg-[#141519] px-4 rounded-[2.8rem] flex">
       <div className="relative  w-full h-full ">
         <div className="absolute -translate-y-1/4 flex justify-center gap-10 w-full h-full">
           <div className="flex h-full flex-col items-center">

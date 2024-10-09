@@ -27,6 +27,7 @@ const config: Config = {
         "a2-background-1": "url('/assets/a2-background_1.png')",
         "a4-background-1": "url('/assets/a4-background-6.png')",
         "a2-background_2": "url('/assets/a2-background_2.jpg')",
+        "cookie-background-a5": "url('/assets/cookie-background-a5.png')",
         "glucose-measuring": "url('/assets/bg-glucose-measuring.png')",
         "profile-face": "url('/assets/profile-face.png')",
       },
