@@ -170,6 +170,67 @@ const outfit = localFont({
   ],
   variable: "--outfit",
 });
+const lufga = localFont({
+  src: [
+    {
+      path: "../public/fonts/Lufga/LufgaThin.ttf",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Lufga/LufgaLight.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Lufga/LufgaRegular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Lufga/LufgaSemiBold.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Lufga/LufgaBold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--lufga",
+});
+
+const inter = localFont({
+  src: [
+    {
+      path: "../public/fonts/Inter/Inter_18pt-Italic.ttf",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Inter/Inter_18pt-MediumItalic.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Inter/Inter_18pt-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Inter/Inter_18pt-SemiBoldItalic.ttf",
+      weight: "600",
+      style: "italic",
+    },
+    {
+      path: "../public/fonts/Inter/Inter_18pt-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--inter",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -184,7 +245,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable}  ${geistMono.variable} ${barlow.variable}  ${modular_amplitude.variable} ${roboto.variable} ${amaranth.variable} ${schibstedGrotesk.variable} ${montserrat.variable} ${outfit.variable}  antialiased flex flex-col min-h-screen`}
+        className={`${geistSans.variable}  ${geistMono.variable} ${barlow.variable}  ${modular_amplitude.variable} ${roboto.variable} ${amaranth.variable} ${schibstedGrotesk.variable} ${montserrat.variable} ${outfit.variable} ${lufga.variable}  antialiased flex flex-col min-h-screen`}
       >
         {children}
       </body>

@@ -4,12 +4,12 @@ const SelectQuantityShape = () => {
   return (
     <div className="fixed -bottom-16 -left-20 ">
       <div className="relative  ">
-        <p className="absolute -top-10 left-28 text-white">
+        <div className="absolute -top-10 left-28 text-white">
           <div className="flex items-center gap-2">
             <div className="w-[6px] h-[6px] rounded-full top-[2px]  bg-[#E38035] "></div>
             <p className="text-xs  text-white uppercase">Select Quantity</p>
           </div>
-        </p>
+        </div>
         <div className="w-[21rem] h-[21rem]   absolute -left-5 -bottom-5 rounded-full bg-transparent outline-dotted outline-white"></div>
         <div className="w-14 h-14 rounded-full bg-white flex justify-center items-center absolute -top-1 left-48">
           <span className="text-black text-xl">16</span>

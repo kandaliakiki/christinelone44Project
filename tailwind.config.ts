@@ -17,6 +17,8 @@ const config: Config = {
         schibstedGrotesk: ["var(--schibstedGrotesk)"],
         montserrat: ["var(--montserrat)"],
         outfit: ["var(--outfit)"],
+        lufga: ["var(--lufga)"],
+        inter: ["var(--inter)"],
       },
       backgroundImage: {
         "hero-a1-background-2": "url('/assets/hero-a1-background_2.png')",
@@ -28,6 +30,10 @@ const config: Config = {
         "a4-background-1": "url('/assets/a4-background-6.png')",
         "a2-background_2": "url('/assets/a2-background_2.jpg')",
         "cookie-background-a5": "url('/assets/cookie-background-a5.png')",
+        "girl1-background-dateapp":
+          "url('/assets/girl1-background-dateapp.png')",
+        "girl2-background-dateapp":
+          "url('/assets/girl2-background-dateapp.png')",
         "glucose-measuring": "url('/assets/bg-glucose-measuring.png')",
         "profile-face": "url('/assets/profile-face.png')",
       },
