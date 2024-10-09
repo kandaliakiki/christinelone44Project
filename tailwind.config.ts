@@ -19,6 +19,8 @@ const config: Config = {
         outfit: ["var(--outfit)"],
         lufga: ["var(--lufga)"],
         inter: ["var(--inter)"],
+        suezone: ["var(--suezone)"],
+        sfProDisplay: ["var(--sfProDisplay)"],
       },
       backgroundImage: {
         "hero-a1-background-2": "url('/assets/hero-a1-background_2.png')",
