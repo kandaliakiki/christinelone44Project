@@ -22,6 +22,8 @@ const config: Config = {
         suezone: ["var(--suezone)"],
         sfProDisplay: ["var(--sfProDisplay)"],
         suisseIntl: ["var(--suisseIntl)"],
+        overusedGrotesk: ["var(--overusedGrotesk)"],
+        clemente: ["var(--clemente)"],
       },
       backgroundImage: {
         "hero-a1-background-2": "url('/assets/hero-a1-background_2.png')",
