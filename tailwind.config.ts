@@ -21,6 +21,7 @@ const config: Config = {
         inter: ["var(--inter)"],
         suezone: ["var(--suezone)"],
         sfProDisplay: ["var(--sfProDisplay)"],
+        suisseIntl: ["var(--suisseIntl)"],
       },
       backgroundImage: {
         "hero-a1-background-2": "url('/assets/hero-a1-background_2.png')",

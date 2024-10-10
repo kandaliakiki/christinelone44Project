@@ -45,8 +45,7 @@ const page = () => {
           <div className="py-3 w-64 rounded-2xl rounded-br-lg bg-white p-4 space-y-1 ">
             <h2 className="text-lg  text-[#e33e3c]">Kathryn Murphy</h2>
             <p className="font-sfProDisplay  text-black leading-tight">
-              Hi! I'm doing well, just relatxing after a long day. How about
-              you?
+              Hi! I'm doing well, just relaxing after a long day. How about you?
             </p>
             <div className="flex w-full justify-end  items-center gap-1">
               <p className="font-sfProDisplay  text-black/50 text-sm ">05:16</p>
