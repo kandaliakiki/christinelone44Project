@@ -30,7 +30,7 @@ const BottomLayout = () => {
       ></Image>
       <Image
         alt="home icon"
-        src="/assets/gear-a8.svg"
+        src="/assets/gear-a8-1.svg"
         width={24}
         height={24}
         className=""

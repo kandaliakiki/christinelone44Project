@@ -24,6 +24,8 @@ const config: Config = {
         suisseIntl: ["var(--suisseIntl)"],
         overusedGrotesk: ["var(--overusedGrotesk)"],
         clemente: ["var(--clemente)"],
+        geometria: ["var(--geometria)"],
+        neueMachina: ["var(--neueMachina)"],
       },
       backgroundImage: {
         "hero-a1-background-2": "url('/assets/hero-a1-background_2.png')",

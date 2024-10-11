@@ -13,6 +13,24 @@ export const matchName = [
   { name: "Joanna" },
 ];
 
+export const backgroundImageCardNames = [
+  { name: "Victoria", age: 19 },
+  { name: "Arthur", age: 19 },
+  { name: "James", age: 26 },
+  { name: "Kristin", age: 21 },
+  { name: "Joanna", age: 23 },
+  { name: "Courtney", age: 23 },
+  { name: "Leslie", age: 23 },
+  { name: "Eduardo", age: 22 },
+  { name: "Aubrey", age: 24 },
+  { name: "Philip", age: 25 },
+  { name: "Kylie", age: 18 },
+  { name: "Shawn", age: 27 },
+  { name: "Shawn", age: 24 },
+  { name: "Courtney", age: 23 },
+  { name: "Leslie", age: 23 },
+];
+
 export const pageLinks = [
   { pagename: "A1_1", href: "a1/1stscreen" },
   { pagename: "A1_2", href: "a1/2ndscreen" },
