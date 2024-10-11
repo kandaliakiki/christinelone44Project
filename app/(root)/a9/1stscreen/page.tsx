@@ -19,7 +19,7 @@ const page = () => {
         ></Image>
       </div>
       <div className="flex justify-center mt-10">
-        <ProfileCard showTopControls={true}></ProfileCard>
+        <ProfileCard></ProfileCard>
       </div>
       <div className="text-white mt-8 px-3">
         <p>About</p>

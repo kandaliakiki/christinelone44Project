@@ -5,6 +5,14 @@ export const angular3DHeadButtons = [
   { imageUrl: "/assets/filter.svg" },
 ];
 
+export const matchName = [
+  { name: "Alice" },
+  { name: "Molly" },
+  { name: "Vi" },
+  { name: "Lina" },
+  { name: "Joanna" },
+];
+
 export const pageLinks = [
   { pagename: "A1_1", href: "a1/1stscreen" },
   { pagename: "A1_2", href: "a1/2ndscreen" },

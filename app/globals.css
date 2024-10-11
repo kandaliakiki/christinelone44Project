@@ -238,6 +238,15 @@ body {
   transform: scaleX(-1);
 }
 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 /* A1_2 Styling */
 .left-layout-a2-shape {
   @apply w-[300px] h-[900px] relative flex justify-center;
