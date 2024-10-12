@@ -26,6 +26,7 @@ const config: Config = {
         clemente: ["var(--clemente)"],
         geometria: ["var(--geometria)"],
         neueMachina: ["var(--neueMachina)"],
+        formaDJRMicro: ["var(--formaDJRMicro)"],
       },
       backgroundImage: {
         "hero-a1-background-2": "url('/assets/hero-a1-background_2.png')",
@@ -37,6 +38,8 @@ const config: Config = {
         "a4-background-1": "url('/assets/a4-background-6.png')",
         "a2-background_2": "url('/assets/a2-background_2.jpg')",
         "cookie-background-a5": "url('/assets/cookie-background-a5.png')",
+        "a11-background-heart": "url('/assets/a11-background-heart.png')",
+
         "girl1-background-dateapp":
           "url('/assets/girl1-background-dateapp.png')",
         "girl2-background-dateapp":

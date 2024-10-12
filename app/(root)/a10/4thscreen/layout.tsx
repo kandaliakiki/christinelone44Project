@@ -18,7 +18,7 @@ export default function RootLayout({
         <TopLayout />
       </div>
       <div>
-        <div className="absolute -top-0 left-0 overflow-y-hidden  h-screen w-screen  z-10">
+        <div className="absolute -top-0 left-0 overflow-hidden  h-screen w-screen  z-10">
           <BackgroundText />
         </div>
       </div>
