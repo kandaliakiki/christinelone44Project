@@ -35,7 +35,6 @@ export default function RootLayout({
           <div className="w-4 h-4 rounded-full -top-1 right-0 bg-[#ff4B97] absolute flex justify-center items-center ">
             <p className="text-white text-xs">3</p>
           </div>
-          <div></div>
         </div>
       </div>
       <div className="">{children}</div>

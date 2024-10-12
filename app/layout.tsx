@@ -428,6 +428,31 @@ const formaDJRMicro = localFont({
   ],
   variable: "--formaDJRMicro",
 });
+const graphie = localFont({
+  src: [
+    {
+      path: "../public/fonts/Graphie/Graphie-Light.otf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Graphie/Graphie-Regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Graphie/Graphie-SemiBold.otf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Graphie/Graphie-Bold.otf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--graphie",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -442,7 +467,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable}  ${geistMono.variable} ${barlow.variable}  ${modular_amplitude.variable} ${roboto.variable} ${amaranth.variable} ${schibstedGrotesk.variable} ${montserrat.variable} ${outfit.variable} ${lufga.variable} ${suezone.variable} ${sfProDisplay.variable} ${suisseIntl.variable} ${overusedGrotesk.variable} ${clemente.variable} ${geometria.variable} ${neueMachina.variable} ${formaDJRMicro.variable}  antialiased flex flex-col min-h-screen`}
+        className={`${geistSans.variable}  ${geistMono.variable} ${barlow.variable}  ${modular_amplitude.variable} ${roboto.variable} ${amaranth.variable} ${schibstedGrotesk.variable} ${montserrat.variable} ${outfit.variable} ${lufga.variable} ${suezone.variable} ${sfProDisplay.variable} ${suisseIntl.variable} ${overusedGrotesk.variable} ${clemente.variable} ${geometria.variable} ${neueMachina.variable} ${formaDJRMicro.variable} ${graphie.variable}   antialiased flex flex-col min-h-screen`}
       >
         {children}
       </body>

@@ -27,18 +27,19 @@ const config: Config = {
         geometria: ["var(--geometria)"],
         neueMachina: ["var(--neueMachina)"],
         formaDJRMicro: ["var(--formaDJRMicro)"],
+        graphie: ["var(--graphie)"],
       },
       backgroundImage: {
         "hero-a1-background-2": "url('/assets/hero-a1-background_2.png')",
         "hero-a1-background-3": "url('/assets/hero-a1-background_3.png')",
         "hero-a4-background-1": "url('/assets/hero-a4-background_1.png')",
         "hero-a4-background-2": "url('/assets/hero-a4-background_2.png')",
-
         "a2-background-1": "url('/assets/a2-background_1.png')",
         "a4-background-1": "url('/assets/a4-background-6.png')",
         "a2-background_2": "url('/assets/a2-background_2.jpg')",
         "cookie-background-a5": "url('/assets/cookie-background-a5.png')",
         "a11-background-heart": "url('/assets/a11-background-heart.png')",
+        "a12-background-couple": "url('/assets/a12-background-couple.png')",
 
         "girl1-background-dateapp":
           "url('/assets/girl1-background-dateapp.png')",
