@@ -13,6 +13,14 @@ export const matchName = [
   { name: "Joanna" },
 ];
 
+export const matchName2 = [
+  { name: "Anna" },
+  { name: "Debbie" },
+  { name: "Nicole" },
+  { name: "Anna" },
+  { name: "Ruth" },
+];
+
 export const backgroundImageCardNames = [
   { name: "Victoria", age: 19 },
   { name: "Arthur", age: 19 },
@@ -54,4 +62,17 @@ export const pageLinks = [
   { pagename: "A7_1", href: "a7/1stscreen" },
   { pagename: "A7_2", href: "a7/2ndscreen" },
   { pagename: "A8_1", href: "a8/1stscreen" },
+  // Start Generation Here
+  { pagename: "A8_2", href: "a8/2ndscreen" },
+  { pagename: "A9_1", href: "a9/1stscreen" },
+  { pagename: "A9_2", href: "a9/2ndscreen" },
+  { pagename: "A9_3", href: "a9/3rdscreen" },
+  { pagename: "A10_1", href: "a10/1stscreen" },
+  { pagename: "A10_2", href: "a10/2ndscreen" },
+  { pagename: "A10_3", href: "a10/3rdscreen" },
+  { pagename: "A10_4", href: "a10/4thscreen" },
+  { pagename: "A11_1", href: "a11/1stscreen" },
+  { pagename: "A11_2", href: "a11/2ndscreen" },
+  { pagename: "A12_1", href: "a12/1stscreen" },
+  { pagename: "A12_2", href: "a12/2ndscreen" },
 ];

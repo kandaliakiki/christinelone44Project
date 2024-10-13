@@ -2,8 +2,8 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="w-80 h-80 rounded-full border-[#BBC1B6] border border-dashed border-transparent bg-transparent relative flex justify-center items-center mt-10">
-      <div className="w-56 h-56 rounded-full border-[#A3AAA4] border border-dashed border-transparent bg-transparent flex justify-center items-center ">
+    <div className="w-80 h-80 rounded-full border-[#BBC1B6] border border-dashed bg-transparent relative flex justify-center items-center mt-10">
+      <div className="w-56 h-56 rounded-full border-[#A3AAA4] border border-dashed bg-transparent flex justify-center items-center ">
         <div
           className="relative w-24 h-24  rounded-full overflow-hidden  self-center mt-1
       bg-profile-face bg-[center] bg-no-repeat bg-[length:100px_100px]"
