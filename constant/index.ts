@@ -62,7 +62,6 @@ export const pageLinks = [
   { pagename: "A7_1", href: "a7/1stscreen" },
   { pagename: "A7_2", href: "a7/2ndscreen" },
   { pagename: "A8_1", href: "a8/1stscreen" },
-  // Start Generation Here
   { pagename: "A8_2", href: "a8/2ndscreen" },
   { pagename: "A9_1", href: "a9/1stscreen" },
   { pagename: "A9_2", href: "a9/2ndscreen" },
@@ -75,4 +74,8 @@ export const pageLinks = [
   { pagename: "A11_2", href: "a11/2ndscreen" },
   { pagename: "A12_1", href: "a12/1stscreen" },
   { pagename: "A12_2", href: "a12/2ndscreen" },
+  { pagename: "A13_1", href: "a13/1stscreen" },
+  { pagename: "A13_2", href: "a13/2ndscreen" },
+  { pagename: "A13_3", href: "a13/3rdscreen" },
+  { pagename: "A13_4", href: "a13/4thscreen" },
 ];

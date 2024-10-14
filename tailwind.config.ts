@@ -29,6 +29,7 @@ const config: Config = {
         formaDJRMicro: ["var(--formaDJRMicro)"],
         graphie: ["var(--graphie)"],
         gilroy: ["var(--gilroy)"],
+        dmSans: ["var(--dmSans)"],
       },
       backgroundImage: {
         "hero-a1-background-2": "url('/assets/hero-a1-background_2.png')",
