@@ -30,6 +30,7 @@ const config: Config = {
         graphie: ["var(--graphie)"],
         gilroy: ["var(--gilroy)"],
         dmSans: ["var(--dmSans)"],
+        nunitoSans: ["var(--nunitoSans)"],
       },
       backgroundImage: {
         "hero-a1-background-2": "url('/assets/hero-a1-background_2.png')",

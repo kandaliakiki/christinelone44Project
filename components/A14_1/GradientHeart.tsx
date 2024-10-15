@@ -9,13 +9,9 @@ const GradientHeart = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g id="SVGRepo_bgCarrier" stroke-width="0" />
+      <g id="SVGRepo_bgCarrier" />
 
-      <g
-        id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
+      <g id="SVGRepo_tracerCarrier" />
 
       <defs>
         <linearGradient id="gradient1" x1="100%" y1="0%" x2="0%" y2="100%">

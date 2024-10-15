@@ -20,6 +20,17 @@ export const matchName2 = [
   { name: "Anna" },
   { name: "Ruth" },
 ];
+export const matchName3 = [
+  { name: "Dianne", age: 19 },
+  { name: "Jane", age: 21 },
+  { name: "Betty", age: 24 },
+  { name: "Sarah", age: 22 },
+  { name: "Julie", age: 21 },
+  { name: "Regina", age: 21 },
+  { name: "Emily", age: 20 },
+  { name: "Hannah", age: 25 },
+  { name: "Olivia", age: 23 },
+];
 
 export const backgroundImageCardNames = [
   { name: "Victoria", age: 19 },
