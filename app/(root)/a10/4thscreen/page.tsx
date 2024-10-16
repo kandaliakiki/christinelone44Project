@@ -4,8 +4,8 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <div className="relative  mt-5 overflow-hidden flex justify-center   w-full  space-x-4 ">
-        <div className="w-max flex gap-7 top-0 items-end ">
+      <div className="relative  mt-5 overflow-hidden flex justify-center   w-full   space-x-4 ">
+        <div className="w-max flex gap-7 top-0 items-end bg-red-400 ">
           <ProfileCard isActive={false} position="left" />
           <ProfileCard isActive={true} />
           <ProfileCard isActive={false} position="right" />

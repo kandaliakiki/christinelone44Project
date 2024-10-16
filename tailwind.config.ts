@@ -31,6 +31,7 @@ const config: Config = {
         gilroy: ["var(--gilroy)"],
         dmSans: ["var(--dmSans)"],
         nunitoSans: ["var(--nunitoSans)"],
+        lato: ["var(--lato)"],
       },
       backgroundImage: {
         "hero-a1-background-2": "url('/assets/hero-a1-background_2.png')",
@@ -41,6 +42,7 @@ const config: Config = {
         "a4-background-1": "url('/assets/a4-background-6.png')",
         "a2-background_2": "url('/assets/a2-background_2.jpg')",
         "cookie-background-a5": "url('/assets/cookie-background-a5.png')",
+        "forest-background-a16": "url('/assets/forest-background-a16.png')",
         "a11-background-heart": "url('/assets/a11-background-heart.png')",
         "a12-background-couple": "url('/assets/a12-background-couple.png')",
 
