@@ -438,3 +438,8 @@ body {
   mask-composite: exclude;
   pointer-events: none;
 }
+
+/* A17_1 Styling */
+.motif-abstract-container {
+  @apply overflow-hidden bg-gray-500 bg-gradient-to-tr from-10% from-[#0b0105]/90 to-100% to-black/75;
+}

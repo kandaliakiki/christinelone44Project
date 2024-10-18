@@ -32,6 +32,7 @@ const config: Config = {
         dmSans: ["var(--dmSans)"],
         nunitoSans: ["var(--nunitoSans)"],
         lato: ["var(--lato)"],
+        mulish: ["var(--mulish)"],
       },
       backgroundImage: {
         "hero-a1-background-2": "url('/assets/hero-a1-background_2.png')",
@@ -52,6 +53,7 @@ const config: Config = {
           "url('/assets/girl2-background-dateapp.png')",
         "glucose-measuring": "url('/assets/bg-glucose-measuring.png')",
         "profile-face": "url('/assets/profile-face.png')",
+        "profile-face-nobg": "url('/assets/profile-face-nobg.png')",
       },
       colors: {
         "gray-theme-a1": "#2A2A2A",
